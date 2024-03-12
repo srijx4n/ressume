@@ -1,0 +1,78 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting up basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bea552;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+p {
+    color: #666;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Adding style for images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto; /* Centering images */
+    border-radius: 8px;
+}
+
+/* Adding style for objective and skills sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Adding style for the projects section */
+.project {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* Adding hover effect for links */
+a:hover {
+    color: #007bff;
+}
+
+/* Adding styling for strong tags */
+strong {
+    font-weight: bold;
+}
